@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Input Field for Temperature -->
+    <EditText
+        android:id="@+id/inputTemperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Temperature"
+        android:inputType="numberDecimal" />
+
+    <!-- Button to Convert to Celsius -->
+    <Button
+        android:id="@+id/btnToCelsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert to Celsius" />
+
+    <!-- Button to Convert to Fahrenheit -->
+    <Button
+        android:id="@+id/btnToFahrenheit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert to Fahrenheit" />
+
+    <!-- TextView to Display the Result -->
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result will be shown here"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:paddingTop="16dp" />
+</LinearLayout>
